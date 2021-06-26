@@ -122,7 +122,7 @@ window.requestAnimationFrame(main);
 window.addEventListener('keydown', e=>{
     musicSound.play();
     inputDir = {x:0,y:-1} //start the game
-    moveSound.play();
+    musicSound.play();
     switch(e.key){
         case "ArrowUp":
             console.log("ArrowUp");
