@@ -8,7 +8,7 @@
 .body{
     background: url("../img/bg.jpg");
     min-height: 100vh;
-    background-size: 220vh 46vw;
+    background-size: 220vh 50vw;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
