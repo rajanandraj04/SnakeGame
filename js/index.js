@@ -106,7 +106,7 @@ function gameEngine(){
 
 
 // Main logic of game
-musicSound.play();
+//musicSound.play();
 
 let hiscore=localStorage.getItem("hiscore");
 if(hiscore===null){
@@ -120,6 +120,7 @@ else{
 
 window.requestAnimationFrame(main);
 window.addEventListener('keydown', e=>{
+    musicSound.play();
     inputDir = {x:0,y:-1} //start the game
     moveSound.play();
     switch(e.key){
